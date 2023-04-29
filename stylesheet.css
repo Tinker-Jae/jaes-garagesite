@@ -1,0 +1,37 @@
+/*
+    Styles r here lol
+*/
+.marker{
+    border: .5px solid hotpink;
+    border-radius: 15px;
+}
+.Header{
+    width: 100%;
+    justify-content: center;
+}
+.TopNav{
+    width: 100%;
+    justify-content: center;
+}
+.FlexContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1.5%;
+    width: 100%;
+}
+.LeftBox{
+    order: 1;
+    width: 15.45%;
+    height: auto;
+}
+.MidBox{
+    order: 2;
+    width: 46.54%;
+    height: auto;
+}
+.RightBox{
+    order: 3;
+    width: 15.45%;
+    height: auto;
+}
