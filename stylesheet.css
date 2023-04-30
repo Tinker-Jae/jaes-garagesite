@@ -5,13 +5,25 @@
     border: .5px solid hotpink;
     border-radius: 15px;
 }
+.Border{
+    border: .125px solid black;
+}
 .Header{
     width: 100%;
-    justify-content: center;
+    text-align: center;
 }
-.TopNav{
-    width: 100%;
+.TopNav ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
+    gap: 2%;
+}
+.TopNav h2{
+    margin: 0%;
+    padding: 0%;
 }
 .FlexContainer{
     display: flex;
@@ -19,19 +31,38 @@
     justify-content: center;
     gap: 1.5%;
     width: 100%;
+    margin-top: 1%;
 }
 .LeftBox{
     order: 1;
-    width: 15.45%;
+    width: 15.5%;
     height: auto;
 }
 .MidBox{
     order: 2;
-    width: 46.54%;
+    width: 100%;
     height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.MidBox h1{
+    margin: 2% 3%;
+}
+.MidBox p{
+    text-indent: 3%;
+    margin: 2% 3%;
+}
+.MidBox div h1{
+    margin: 2% 3%;
+}
+.MidBox div p{
+    text-indent: 3%;
+    margin: 2% 3%;
 }
 .RightBox{
     order: 3;
-    width: 15.45%;
+    width: 15.5%;
     height: auto;
 }
